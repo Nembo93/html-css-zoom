@@ -1,0 +1,63 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    height: 25px;
+    background-color: black;
+}
+header div{
+    text-align: right;
+}
+header button{
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+
+/* MAIN */
+main{
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: calc(100vh - 25px - 60px);
+    width: calc(100% - 80px);
+    background-color: gray;
+}
+
+.user{
+    margin-right: 1%;
+    margin-bottom: 3%;
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    background-color: green;
+    position: relative;
+}
+.user-name{
+    width: 50%;
+    height: 20%;
+    background-color: red;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.user-face{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* FOOTER */
+footer{
+    height: 60px;
+    background-color: black;
+}
