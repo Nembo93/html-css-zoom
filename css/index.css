@@ -25,6 +25,7 @@ header button{
 /* MAIN */
 main{
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -34,10 +35,9 @@ main{
 }
 
 .user{
-    margin-right: 1%;
-    margin-bottom: 3%;
     width: calc(100% / 7);
     height: calc(100% / 5);
+    border: solid black;
     background-color: green;
     position: relative;
 }
